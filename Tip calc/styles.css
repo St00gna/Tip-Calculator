@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr auto;
+
+}
+
+header img {
+    max-height: 80%;
+    max-width: 80%;
+    display: block;
+    grid-column: 4/5;
+}
+
+header {
+display:grid;
+justify-items: center;
+align-items: center;
+grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+}
+
+
+.header_item {
+background-color: #D6EFED;
+}
+
+.header_item h1 {
+    display: block;
+    grid-column: 2/3;
+}
+
+.header_item p {
+display: block;
+grid-column: 3/4;
+font-size: 24px;
+color: #898AA6;
+}
+
+.main_item {
+    align-self: center;
+    justify-self: center;
+}
+
+main {
+    background-image: url("https://www.thebalancesmb.com/thmb/tVbnMUxusyPfkjlw818hqvtr81E=/2400x1577/filters:fill(auto,1)/restaurant-59dfbd27d963ac0011e3898e.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;  
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+main p {
+text-align: center;
+background-color: #898AA6;
+color: white;
+font-size: 24px;
+border-radius: 100px;
+}
+
+.amount_of_persons {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.number_in_bill {
+    display: block;
+}
+
+footer {
+    background-color: #B7D3DF;
+    text-align: center;
+}
+
+.design_title {
+    color: #898AA6;
+}
+
+.pop_up {
+    background-color: #C9BBCF;
+    color: white;
+    text-align: center;
+    border-radius: 100px;
+    margin: 5px;
+    font-size: 14px;
+    display: none;
+}
+
+footer h2 {
+   color: #898AA6;
+}
+
+footer p {
+    color: #898AA6;
+}
+
+button {
+    display: block;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+
