@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>TIP_Calc</title>
+</head>
+<body>
+    <div class="wrapper"> 
+        <sidebar class="sidebar_left">
+            <h1 class="main_text">  <span class="color_Tip">Tip</span> Calculator </h1>
+            <img src="images/restaurant_with_people_1.jpg" alt="restaurant_with_people_1" class="img__restaurant_with_people_1">
+            <p class="center_text"> Split the tips evenly </p>
+            <img src="images/restaurant_with_people_2.jpg" alt="restaurant_with_people_2" class="img__restaurant_with_people_2">
+        </sidebar>
+        <main class="main_content">
+            <form class="main_form">
+                <p class="enter_criteries"> Enter some criteries for this app </p>
+                <input type="number" placeholder="How many people at the table?" class="first_input"> 
+                <input type="number" placeholder="How much is in your check?" class="second_input">
+                <p class="service_rating">How much you like this service?)</p>
+                <select class="select">
+                    <option value="1"> Amazing (25%)</option>
+                    <option value="2"> Good (20%)</option>
+                    <option value="3"> Okay (15%)</option>
+                    <option value="4"> Bad (10%)</option>
+                    <option value="5"> Please, burn this waiter (5%) </option>   
+                </select>
+                <div class="buttons">
+                    <button class="btn_calculate">Calculate</button>
+                    <button class="btn_clear">Clear</button>
+                </div>
+            </form>
+            <div id="tip_window" class=" "></div>
+        </main>
+        <sidebar class="sidebar_right">
+            <img src="images/restaurant_with_people_3.jpg" alt="restaurant_with_people_3" class="img__restaurant_with_people_3">
+            <p class="thanks"> I hope, this app will help you to divide tip even) </p>
+            <img src="images/restaurant_with_people_4.jpg" alt="restaurant_with_people_4" class="img__restaurant_with_people_4">
+            <p class="copyright"></p>
+        </sidebar>
+    </div>
+    <script type="text/JavaScript" src="index.js"> </script>
+</body>
+</html>
